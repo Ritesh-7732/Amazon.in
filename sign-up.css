@@ -1,0 +1,173 @@
+*{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: -0.5em;
+}
+
+
+/* .logo {
+    display: block;
+    height: 100px;
+    background-color: rgb(213, 145, 55);
+    margin-top: -1.1em;
+} */
+
+#logo-link, 
+#logo-img {
+    width: 140px;
+    height: 3.8rem;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box {
+    width: 300px;
+    height: 18.5rem;
+    border: 2px solid rgba(128, 128, 128, 0.552);
+    border-radius: 5px;
+    padding: 20px 26px 20px 26px;
+    position: relative;
+    /* top: 2rem; */
+    
+}
+
+
+.inner-box {
+    /* background-color: rgba(75, 238, 238, 0.513); */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    /* width: 320px; */
+    height: 18.5rem;
+    /* text-align: center; */
+}
+
+
+h2 {
+    width: 17.7rem;
+    /* padding: 20px 0 0 20px; */
+    font-weight: 600;
+    font-size: 1.49em;
+    line-height: 30px;
+}
+
+
+
+
+
+
+.input-box--button {
+    margin-top: 5px;
+}
+
+
+#login-input {
+    width: 100%;
+    height: 1.9rem;
+    font-weight: 500;
+    font-size: 1em;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.476);
+}
+
+
+.login-error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+
+
+button {
+    width: 100%;
+    height: 1.9rem;
+    background-color: #f8d838;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #f5d221;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #e5c41e;
+}
+
+
+.para-anchor1 {
+    font-size: 0.88em;
+    margin: 15px 0 15px;
+}
+
+.blue-black {
+    color: #2162a1;
+}
+
+
+
+
+.blue-black:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.buy-for-work {
+    font-size: 0.88em;
+}
+
+
+#work-para {
+    font-weight: 550;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* footer {
+
+} */
+
+
+.last-links {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+
+
+.remove-underline {
+    color: #2162a1;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 0.88em;
+}
+
+
+#end {
+    display: flex;
+    justify-content: center;
+    font-size: 0.88em;
+}
